@@ -17,7 +17,7 @@ public class GameController : MonoBehaviour
         
     }
 
-    public void StartCooking() {
+    public void StartCooking(string dish) {
         book.transform.Translate(0, 1000, 0);
         kitchen.transform.Translate(0, 1000, 0);
     }
