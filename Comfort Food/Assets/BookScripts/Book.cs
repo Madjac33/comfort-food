@@ -6,6 +6,7 @@ public class book : MonoBehaviour
 {
     [SerializeField] float pageSpeed = 0.5f;
     [SerializeField] List<Transform> pages;
+    AudioSource audio;
     int index = -1;
     bool rotate = false;
     [SerializeField] GameObject backButton;
@@ -14,6 +15,7 @@ public class book : MonoBehaviour
     private void Start()
     {
         InitialState();
+        audio = GetComponent<AudioSource>();
     }
 
     public void InitialState()
@@ -35,6 +37,7 @@ public class book : MonoBehaviour
         ForwardButtonActions();
         pages[index].SetAsLastSibling();
         pages[index].gameObject.GetComponent<PageController>().HidePage();
+        audio.Play();
         StartCoroutine(Rotate(angle, true));
 
     }
@@ -58,6 +61,7 @@ public class book : MonoBehaviour
         pages[index].SetAsLastSibling();
         pages[index].gameObject.GetComponent<PageController>().RevealPage();
         BackButtonActions();
+        audio.Play();
         StartCoroutine(Rotate(angle, false));
     }
 
