@@ -643,6 +643,7 @@ GameObject:
   - component: {fileID: 210921303}
   - component: {fileID: 210921305}
   - component: {fileID: 210921304}
+  - component: {fileID: 210921306}
   m_Layer: 5
   m_Name: Seaweed
   m_TagString: Untagged
@@ -707,6 +708,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 210921302}
   m_CullTransparentMesh: 1
+--- !u!114 &210921306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210921302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ee09393b7884671869c6d6f0b974df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cookingSurface: {fileID: 2030731805}
 --- !u!1 &257061364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1004,6 +1018,7 @@ GameObject:
   - component: {fileID: 294669565}
   - component: {fileID: 294669567}
   - component: {fileID: 294669566}
+  - component: {fileID: 294669568}
   m_Layer: 5
   m_Name: Tomato sauce
   m_TagString: Untagged
@@ -1068,6 +1083,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294669564}
   m_CullTransparentMesh: 1
+--- !u!114 &294669568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294669564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ee09393b7884671869c6d6f0b974df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cookingSurface: {fileID: 436980215}
 --- !u!1 &312932010
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,6 +1107,7 @@ GameObject:
   - component: {fileID: 312932011}
   - component: {fileID: 312932013}
   - component: {fileID: 312932012}
+  - component: {fileID: 312932014}
   m_Layer: 5
   m_Name: Parmesan
   m_TagString: Untagged
@@ -1143,6 +1172,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312932010}
   m_CullTransparentMesh: 1
+--- !u!114 &312932014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312932010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ee09393b7884671869c6d6f0b974df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cookingSurface: {fileID: 436980215}
 --- !u!1 &337860679
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,6 +1271,7 @@ GameObject:
   - component: {fileID: 356381554}
   - component: {fileID: 356381556}
   - component: {fileID: 356381555}
+  - component: {fileID: 356381557}
   m_Layer: 5
   m_Name: Basil
   m_TagString: Untagged
@@ -1293,6 +1336,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 356381553}
   m_CullTransparentMesh: 1
+--- !u!114 &356381557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356381553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ee09393b7884671869c6d6f0b974df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cookingSurface: {fileID: 436980215}
 --- !u!1 &359040588
 GameObject:
   m_ObjectHideFlags: 0
@@ -1625,7 +1681,7 @@ GameObject:
   - component: {fileID: 436980218}
   - component: {fileID: 436980217}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Pot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2731,6 +2787,7 @@ GameObject:
   - component: {fileID: 845942108}
   - component: {fileID: 845942110}
   - component: {fileID: 845942109}
+  - component: {fileID: 845942111}
   m_Layer: 5
   m_Name: Miso paste
   m_TagString: Untagged
@@ -2795,6 +2852,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845942107}
   m_CullTransparentMesh: 1
+--- !u!114 &845942111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845942107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ee09393b7884671869c6d6f0b974df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cookingSurface: {fileID: 2030731805}
 --- !u!1 &903659505
 GameObject:
   m_ObjectHideFlags: 0
@@ -2807,7 +2877,7 @@ GameObject:
   - component: {fileID: 903659508}
   - component: {fileID: 903659507}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Cutting board
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3548,6 +3618,7 @@ GameObject:
   - component: {fileID: 1069323088}
   - component: {fileID: 1069323090}
   - component: {fileID: 1069323089}
+  - component: {fileID: 1069323091}
   m_Layer: 5
   m_Name: Pasta
   m_TagString: Untagged
@@ -3612,6 +3683,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069323087}
   m_CullTransparentMesh: 1
+--- !u!114 &1069323091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069323087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ee09393b7884671869c6d6f0b974df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cookingSurface: {fileID: 436980215}
 --- !u!1 &1073000708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3935,6 +4019,7 @@ GameObject:
   - component: {fileID: 1125491090}
   - component: {fileID: 1125491092}
   - component: {fileID: 1125491091}
+  - component: {fileID: 1125491093}
   m_Layer: 5
   m_Name: Bread
   m_TagString: Untagged
@@ -3999,6 +4084,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1125491089}
   m_CullTransparentMesh: 1
+--- !u!114 &1125491093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125491089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ee09393b7884671869c6d6f0b974df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cookingSurface: {fileID: 903659505}
 --- !u!1 &1162610503
 GameObject:
   m_ObjectHideFlags: 0
@@ -4423,6 +4521,7 @@ GameObject:
   - component: {fileID: 1255823550}
   - component: {fileID: 1255823552}
   - component: {fileID: 1255823551}
+  - component: {fileID: 1255823553}
   m_Layer: 5
   m_Name: Jelly
   m_TagString: Untagged
@@ -4487,6 +4586,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255823549}
   m_CullTransparentMesh: 1
+--- !u!114 &1255823553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255823549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ee09393b7884671869c6d6f0b974df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cookingSurface: {fileID: 903659505}
 --- !u!1 &1262884348
 GameObject:
   m_ObjectHideFlags: 0
@@ -5524,6 +5636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64ee09393b7884671869c6d6f0b974df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cookingSurface: {fileID: 2030731805}
 --- !u!1 &1452412228
 GameObject:
   m_ObjectHideFlags: 0
@@ -5671,6 +5784,7 @@ GameObject:
   - component: {fileID: 1496732883}
   - component: {fileID: 1496732885}
   - component: {fileID: 1496732884}
+  - component: {fileID: 1496732886}
   m_Layer: 5
   m_Name: Peanut butter
   m_TagString: Untagged
@@ -5735,6 +5849,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496732882}
   m_CullTransparentMesh: 1
+--- !u!114 &1496732886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496732882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ee09393b7884671869c6d6f0b974df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cookingSurface: {fileID: 903659505}
 --- !u!1 &1519264850
 GameObject:
   m_ObjectHideFlags: 0
@@ -5821,6 +5948,7 @@ GameObject:
   - component: {fileID: 1582752853}
   - component: {fileID: 1582752855}
   - component: {fileID: 1582752854}
+  - component: {fileID: 1582752856}
   m_Layer: 5
   m_Name: Fruit
   m_TagString: Untagged
@@ -5885,6 +6013,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1582752852}
   m_CullTransparentMesh: 1
+--- !u!114 &1582752856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582752852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ee09393b7884671869c6d6f0b974df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cookingSurface: {fileID: 1985024374}
 --- !u!1 &1654682096
 GameObject:
   m_ObjectHideFlags: 0
@@ -6243,6 +6384,7 @@ GameObject:
   - component: {fileID: 1715339130}
   - component: {fileID: 1715339132}
   - component: {fileID: 1715339131}
+  - component: {fileID: 1715339133}
   m_Layer: 5
   m_Name: Yogurt
   m_TagString: Untagged
@@ -6307,6 +6449,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1715339129}
   m_CullTransparentMesh: 1
+--- !u!114 &1715339133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715339129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ee09393b7884671869c6d6f0b974df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cookingSurface: {fileID: 1985024374}
 --- !u!1 &1745425620
 GameObject:
   m_ObjectHideFlags: 0
@@ -7210,7 +7365,7 @@ GameObject:
   - component: {fileID: 1985024377}
   - component: {fileID: 1985024376}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Wooden bowl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7360,7 +7515,7 @@ GameObject:
   - component: {fileID: 2030731808}
   - component: {fileID: 2030731807}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Ceramic bowl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7485,6 +7640,7 @@ GameObject:
   - component: {fileID: 2066549327}
   - component: {fileID: 2066549329}
   - component: {fileID: 2066549328}
+  - component: {fileID: 2066549330}
   m_Layer: 5
   m_Name: Acai
   m_TagString: Untagged
@@ -7549,6 +7705,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066549326}
   m_CullTransparentMesh: 1
+--- !u!114 &2066549330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066549326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ee09393b7884671869c6d6f0b974df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cookingSurface: {fileID: 1985024374}
 --- !u!1 &2086848831
 GameObject:
   m_ObjectHideFlags: 0

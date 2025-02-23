@@ -4,17 +4,20 @@ using UnityEngine.EventSystems;
 public class IngredientController : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
     private Vector3 startPos;
+    private float distance;
+    //public string dish;
+    public GameObject cookingSurface;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void OnAwake()
+    void Start()
     {
-        startPos = transform.position;
+        distance = 0.0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        distance = Vector3.Distance(transform.position, cookingSurface.transform.position);
     }
 
     // void SetStartPosition() {
@@ -47,7 +50,12 @@ public class IngredientController : MonoBehaviour, IDragHandler, IBeginDragHandl
     }
 
     public void OnEndDrag(PointerEventData eventData) {
-        ResetPosition();
+        if (distance <= 50.0f) {
+            transform.position = cookingSurface.transform.position;
+        }
+        else {
+            ResetPosition();
+        }
         // transform.DOScale(originalScale, 1.0f).SetEase(Ease.OutBounce);
         
         // if (animalId == mysteryAnimal.GetId() && distance <= 50.0f) {
