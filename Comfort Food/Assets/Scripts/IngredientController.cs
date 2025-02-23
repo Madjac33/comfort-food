@@ -7,6 +7,7 @@ public class IngredientController : MonoBehaviour, IDragHandler, IBeginDragHandl
     private float distance;
     //public string dish;
     public GameObject cookingSurface;
+    public GameController gameController;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -52,6 +53,8 @@ public class IngredientController : MonoBehaviour, IDragHandler, IBeginDragHandl
     public void OnEndDrag(PointerEventData eventData) {
         if (distance <= 50.0f) {
             transform.position = cookingSurface.transform.position;
+            gameController.LockSurface();
+            gameController.ingredientCount += 1;
         }
         else {
             ResetPosition();
