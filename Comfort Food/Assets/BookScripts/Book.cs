@@ -34,6 +34,7 @@ public class book : MonoBehaviour
         float angle = 180; //in order to rotate the page forward, you need to set the rotation by 180 degrees around the y axis
         ForwardButtonActions();
         pages[index].SetAsLastSibling();
+        pages[index].gameObject.GetComponent<PageController>().HidePage();
         StartCoroutine(Rotate(angle, true));
 
     }
@@ -55,6 +56,7 @@ public class book : MonoBehaviour
         if (rotate == true) { return; }
         float angle = 0; //in order to rotate the page back, you need to set the rotation to 0 degrees around the y axis
         pages[index].SetAsLastSibling();
+        pages[index].gameObject.GetComponent<PageController>().RevealPage();
         BackButtonActions();
         StartCoroutine(Rotate(angle, false));
     }
