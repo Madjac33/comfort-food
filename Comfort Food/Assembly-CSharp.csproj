@@ -94,6 +94,7 @@
     <Compile Include="Assets/LeanTween/Examples/Scripts/GeneralCameraShake.cs" />
     <Compile Include="Assets/BookScripts/Book.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/PathSplineTrack.cs" />
+    <Compile Include="Assets/Scripts/IngredientController.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/PathSpline.cs" />
     <Compile Include="Assets/LeanTween/Testing/TestingSequencer.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/LogoCinematic.cs" />
