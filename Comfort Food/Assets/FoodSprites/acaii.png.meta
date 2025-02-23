@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      acaii_0: -1404746424528996751
+      acaii_1: 8631497373689496841
+      acaii_2: -1706919887596514354
+      acaii_3: -1880967631043876960
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
