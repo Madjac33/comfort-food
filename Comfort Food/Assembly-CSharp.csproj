@@ -68,6 +68,7 @@
     <Compile Include="Assets/LeanTween/Framework/LeanTest.cs" />
     <Compile Include="Assets/LeanTween/Testing/TestingDescr.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/GeneralBasics2d.cs" />
+    <Compile Include="Assets/FoodController.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/TestingZLegacy.cs" />
     <Compile Include="Assets/LeanTween/Testing/TestingSceneSwitching.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/GeneralSequencer.cs" />
@@ -112,6 +113,7 @@
     <Compile Include="Assets/LeanTween/Examples/Scripts/TestingZLegacyExt.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/PathSpline2d.cs" />
     <Compile Include="Assets/LeanTween/Framework/LTSeq.cs" />
+    <Compile Include="Assets/GameController.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/GeneralBasic.cs" />
   </ItemGroup>
   <ItemGroup>
