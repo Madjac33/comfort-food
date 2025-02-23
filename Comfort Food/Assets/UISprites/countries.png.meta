@@ -125,10 +125,10 @@ TextureImporter:
       name: countries_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 155
-        width: 76
-        height: 76
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: countries_1
       rect:
         serializedVersion: 2
-        x: 153
-        y: 155
-        width: 76
-        height: 76
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: countries_2
       rect:
         serializedVersion: 2
-        x: 25
-        y: 27
-        width: 76
-        height: 76
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: countries_3
       rect:
         serializedVersion: 2
-        x: 153
-        y: 27
-        width: 76
-        height: 76
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e376dbf169c9340a39c39566a4407c2d
     internalID: 0
     vertices: []
     indices: 
