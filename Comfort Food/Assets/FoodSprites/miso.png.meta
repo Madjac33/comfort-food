@@ -125,10 +125,10 @@ TextureImporter:
       name: miso_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 139
-        width: 122
-        height: 106
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: miso_1
       rect:
         serializedVersion: 2
-        x: 151
-        y: 163
-        width: 82
-        height: 62
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: miso_2
       rect:
         serializedVersion: 2
-        x: 15
-        y: 27
-        width: 94
-        height: 74
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: miso_3
       rect:
         serializedVersion: 2
-        x: 143
-        y: 27
-        width: 98
-        height: 74
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 536594226d53a4608b07c0bed33ea362
     internalID: 0
     vertices: []
     indices: 

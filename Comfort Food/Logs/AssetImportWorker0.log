@@ -536,3 +536,35 @@ Memory consumption went from 150.9 MB to 148.7 MB.
 Total: 11.239375 ms (FindLiveObjects: 0.716250 ms CreateObjectMapping: 0.513666 ms MarkObjects: 6.348000 ms  DeleteObjects: 3.660292 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 238.613594 seconds.
+  path: Assets/FoodSprites/acaii.png
+  artifactKey: Guid(0cb93079b831a224ba8319d2461f3447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodSprites/acaii.png using Guid(0cb93079b831a224ba8319d2461f3447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '389c5439c5b139e20f49f0ecb6080f5e') in 0.120629875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.419032 seconds.
+  path: Assets/FoodSprites/miso.png
+  artifactKey: Guid(f92719d3039c0e94cbcb9669a868d731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodSprites/miso.png using Guid(f92719d3039c0e94cbcb9669a868d731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fd948d3c39bdb0a3e5d4f1e91ac8bf9') in 0.072912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.564597 seconds.
+  path: Assets/FoodSprites/pb-and-j.png
+  artifactKey: Guid(eb34031561481bb42ade2c80601a59c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodSprites/pb-and-j.png using Guid(eb34031561481bb42ade2c80601a59c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41110d261087355b817827082e88a590') in 0.066188833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.096432 seconds.
+  path: Assets/FoodSprites/spaghetti.png
+  artifactKey: Guid(f3486bd3179edeb48903e153a8719ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodSprites/spaghetti.png using Guid(f3486bd3179edeb48903e153a8719ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78261ca6e88e9d5dc18d4c6dc1f79a6c') in 0.068832042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+

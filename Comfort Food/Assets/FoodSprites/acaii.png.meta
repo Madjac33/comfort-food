@@ -125,10 +125,10 @@ TextureImporter:
       name: acaii_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 335
-        width: 186
-        height: 98
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: acaii_1
       rect:
         serializedVersion: 2
-        x: 323
-        y: 323
-        width: 122
-        height: 126
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: acaii_2
       rect:
         serializedVersion: 2
-        x: 67
-        y: 71
-        width: 122
-        height: 114
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: acaii_3
       rect:
         serializedVersion: 2
-        x: 327
-        y: 83
-        width: 110
-        height: 90
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ed84a0b1437bc4c2897ad6a7cf8fff20
     internalID: 0
     vertices: []
     indices: 
