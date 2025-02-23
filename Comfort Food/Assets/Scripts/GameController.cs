@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 using TMPro;
 
 public class GameController : MonoBehaviour
@@ -77,15 +78,21 @@ public class GameController : MonoBehaviour
 
     public void ReturnToBook() {
         HideIngredients();
+        // book.transform.DOMove(new Vector3(0, 0, 0), 1);
+        // kitchen.transform.DOMove(new Vector3(0, -183, 0), 1);
         book.transform.Translate(0, -1000, 0);
         kitchen.transform.Translate(0, -1000, 0);
+        
     }
 
     public void StartCooking(string dish) {
         mainDish = dish;
         begin = true;
+        // book.transform.DOMove(new Vector3(0, 1000, 0), 1);
+        // kitchen.transform.DOMove(new Vector3(0, 817, 0), 1);
         book.transform.Translate(0, 1000, 0);
         kitchen.transform.Translate(0, 1000, 0);
+        
 
         if (dish == "Miso soup") {
             instruction.text = "Use the ceramic bowl.";
